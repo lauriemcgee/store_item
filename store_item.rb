@@ -4,4 +4,5 @@ item3 = {:color => "white", :price => "2 bucks", :fragility => "is not", :worth_
 
 
 
+puts "Item numero uno is #{item1[:color]} colored, costs #{item1[:price]} and while it #{item1[:fragility]} fragile, it's also #{item1[:worth_it?]} worth it either."
 
