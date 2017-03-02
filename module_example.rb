@@ -27,3 +27,8 @@ class Bike
     puts "Ring ring!"
   end
 end
+
+bike1 = Bike.new 
+puts bike1.accelerate
+car = Car.new
+puts car.honk_horn
